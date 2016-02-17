@@ -1,0 +1,446 @@
+2015-12-26
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=161181&highlight=zenefits
+
+先说说个人情况吧. 我研究生还在读, 其实不是学软件工程的, 以前一直打算做科研的, 突然觉得当码农还是挺不错的, 就海投简历了. 有过一个internship和很多research经历, 发过papers, 没github或portfolio.
+总体来说, 我碰到的题都特别简单, 和地里的很不一样, 我一直都在怀疑他们是什么意思, 然后昨天收到congratz信了...
+
+刚开始pre-screen和大家一样, 投简历大约一周两周后, 邮件收到了在线的challenge, 三个小时两道题, 地里有, 就不多说的.. 1point3acres.com/bbs
+
+电面:. more info on 1point3acres.com
+面试官是一个人很不错的ABC小哥, 面试完后我在linkedIn上stalk他, 他也才20出头, 北美TOP大学毕业的.
+
+[占坑]
+
+On-site:
+Skype上的, 三轮technical, 一轮瞎聊. 这回我学聪明了, 开了个browser tab, Skype电话一打过来, 我就google面试官的名字, 然后一边读他的linkedIn, 一边接电话, 根据他的知识背景来决定我介绍我的project具体程度. 
+[容我占坑慢慢写, 打字慢伤不起...]
+
+
+
+下周要和HR谈offer package, 现在在zenefits的朋友们能不能透露下(私信也行)薪水待遇大约怎么样的, 有哪些项目啊? 从来没有过谈薪水经验, 求帮助~~~
+多谢了.
+
+
+. 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+
+
+补充内容 (2015-12-26 12:55):
+电面:
+
+先聊了聊我在学校的projects和thesis, 我thesis的方面一点都不擦边儿还挺偏的, 我就特别特别vague的说了说, 没想到面试官小哥听说过, 我很惊喜(所以才在LinkedIn上瞅他的背景)
+
+Coding的题, 给你一个矩阵, 每个cell有个>=0的int, 还有一个int k, 是你兜里的钱. 你要从矩阵左上角走到右下角, 一次只能往右走一格或往下走一格, 你每新进一格, 就要花掉那个格子里那么多的钱(买路费喽~), 问有没有足够的钱到达右下角并且要求兜里最少(不是最多!)剩的钱数. 
+
+他讲的很明白, 还给了个例子, 我就和他说了说一下就想到的最简单的O(n^2 k)时间空间的算法, 然后说我可以把空间写成O(nk)的, 他说你写最简单的O(n^2 k)就好了, 因为他面试过的大多数人这个都写不完... 我很惊讶, 然后就写O(n^2 k)了... 我有点紧张, 而且要一边说着一边写, 超不习惯的, 好多typo, 还好写完后一跑都对了. 最后和他再聊了聊就完了.
+
+过了一周HR没来信, 我就写信问了, 然后recruiter就打电话来了说面试官反映really positive, 就预约onsite了.
+
+
+
+================================
+2015-09-14
+
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=141606&highlight=zenefits
+
+
+kype面的，卡在草稿箱里才发现没法出去，面完hr来信说bar incredibly high 谢谢参与. 1point 3acres 璁哄潧
+
+1. 三哥
+1） 鏉ユ簮涓€浜�.涓夊垎鍦拌鍧�. 
+一个input list
+num = { 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1 };
+flip 一个连续的区间使1的数量最大
+
+2）
+输入. more info on 1point3acres.com
+5 2
+6 3  5 7 1. from: 1point3acres.com/bbs 
+第一行第一个数是输入的个数，第二个数是diff
+找第二行所有数字差为2的pair 的个数. 1point 3acres 璁哄潧
+这个例子就是
+{1,3} {5,7} {3,5}
+输出3
+
+先排序，然后两个指针构建一个窗口，滑动窗口，他们好像特别喜欢考滑动窗口的题. 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+面完这个了三哥看还有时间，说你写个sort的算法吧
+
+2. 三哥
+1）. num to excel column
+就LC上面那道题
+2）. 两个N长度的排好序的数组，没有重复，找第N个元素 鏉ユ簮涓€浜�.涓夊垎鍦拌鍧�. 
+3. manager
+聊天聊天聊天聊天聊天聊天
+
+补充一下，这三轮skype之前有一个skype是个国人小哥，上来看上去挺凶的，其实人特别好，就问了我permutation和two sum 让我过了~给赞！
+================================
+2015-08-27
+
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=140369&highlight=zenefits
+
+昨天下午刚刚电面了Zenefits，真是面的史无前例的烂啊！！！
+题是新题，虽然没想着靠刷面经来碰到原题，但是这新题也着实有点儿让我摸不着头脑。先不废话，上完干货再说：.鐣欏璁哄潧-涓€浜�-涓夊垎鍦�
+规定一个小时的面试，上来先问了15分钟的简历和behavioral question，然后紧接着就开始编程。给了我一个正方形的矩阵，左上角的位置保证是0，其他的每个坐标位置上都有一个大于等于0的数。一个人最初携带着的钱数为K，然后要从左上角走到右下角，每次只能向右或者向下走，每到一个位置上就需要花掉该位置上对应的钱数，要求编程看看这个人能不能走到右下角（到这儿的时候我还在窃喜，因为我以为他已经说完了呢，shit！），如果不能，就返回-1，如果能，那就要找到一个解法，使得这个人剩余的钱数尽可能少，也就是最终剩余的钱数要大于等于0，并且尽可能接近于0.听到最后我就出了一身冷汗，这题有点儿向leetcode的那个地牢游戏，但是却比那个还要复杂。想了几分钟想不出好的解决办法，只好先说了下brute force的解法，肯定知道得继续改进。不过面试官竟然不紧不慢的让我先说一下复杂度，我去，我想了想是不是2^n呢，但是面试官说不是。。。。靠，又分析了半天还是没想到，就先继续想更有效的解决方案了。然后想是不是可以用DP，然后同时保存走到每个坐标的时候剩余的钱数的最大最小值呢？说了一下之后，面试官就让我先把算法模拟走一遍，然后又开始分析复杂度，这个好分析，分析完之后，又让我证明正确性。。。。（我勒个去，哥哥，已经没多少时间让我写代码了诶，就不能先写代码吗？）然后说着说着发现，诶？这个方法有遗漏啊！面试官就有让我继续改进，但是实在想不出来高效的解法，就开始要求给提示，结果他说就按着你刚才的那个思路再想想，快接近正确答案了。想了半天还是想不到，就直接说能不能有那种暴力破解+剪枝呢？就是每次遇见已经小于0的情况的时候，这条路前面的结果就舍弃，只保存那些大于等于0的结果。他又让我分析时间复杂度和证明正确性，我去，看来这是没有时间写代码的节奏了，我已经觉得自己99%得挂了。然后又思考了半天，实在分析不出来时间复杂度，虽然知道正确，但是不敢确定这就是最优解啊！最后还是他告诉了我这个解法的时间复杂度，而且说这已经说最优解了，没有办法更快了。。。。我去，好吧！最后只有不到10分钟的时间写代码，只写了一点就到时间了！
+================================
+2015-04-08
+
+http://www.1point3acres.com/bbs/thread-129785-1-1.html
+
+刚挂电话，不得不说面这家公司大家都要刷好他之前的题，原题几率真的很高。
+开始聊了一会，我也没听懂他说什么。。。英语拙计，然后就是hackerrank刷题。
+[1，2，1].鐣欏璁哄潧-涓€浜�-涓夊垎鍦�
+[1，0，1]. From 1point 3acres bbs
+[1，2，1]
+就这个矩阵，找所有1到2的最短路径，之前论坛里已经有人发了，非常简单从每个2的位置做BFS就行了。要注意他会要你当场调试通过。+
+然后问了个小问题，就是之后的面试，他说之后可能还会有几轮，因为现在招的刚毕业的职位他也不清楚，然后就是说HR可能会比较慢，估计几天到一周会回我。. 
+================================
+Skype:
+Return lexicographical kth ordering (HHVV,HVHV where H = horizontal, V - vertical) of minimum steps to reach from 0,0 coordinates in a grid to any given coordinates. Inputs are {[x1,y1,k1],[x2,y2,k2]...}The question itself ran easily 3 -4 paragraphs just to understand it one pass and I took 12 - 15 minutes of about 45 minutes interview to understand, I asked for a swap question because I didn't understand notation for kth order lexicographical what he really meant. When I said I may have to sort, then he said no need to sort. the swap question was to find maximized product of length of non overlapping palindrome subsequences ( note: not substring). 
+
+Second question was to return lowest reduced fraction of summing of a bunch of numerator denominator combination input as strings. This requires to have knowledge of LCM or GCD and on top of it adding the fractions. I could code for 2nd question except for getting GCD, which point I left. I felt the interview was really difficult and not like any question I had seen on glassdoor. I can do comparison of the difficulty level since I have given interviews at other bay area companies where I have onsite interview calls too not anything close to this difficulty. May be these were hacker rank challenges online take come kind of stuff.  
+============================
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=136128&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26sortid%3D311
+Skype:
+小印，总说不要给我讲思路，写就行了。。 . more info on 1point3acres.com
+1，第一题
+2，two difference. 但是不让用hash table。Solution: 排序+双指针
+
+Onsite:
+1, 第一轮两个年轻国人，每人一道题
+1.1, 首先是一个coding题，问给一个 Node* 数组，怎么判断是不是一个valid的 binary tree。
+Solution: 算每个 node 的 indegree 和 outdegree，然后看 indegree是否都为1（有且仅有一个node为0），outdegree是否都小于等于2
+
+1.2, 为现在的电梯有什么问题？怎么设计下一代的电梯。
+国人小哥说这是一个开放思维的题，说什么的可以。无奈英语太差，思维也不够发散，没答好。. 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+
+2, 一个阿三大叔。给一个 int 数组，判断是否是一个可能的 BST preorder 访问顺序
+  各种c++ java常识问题，OO 问题， 测试相关问题
+============================
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=167722&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26sortid%3D311
+
+http://massivealgorithms.blogspot.com/2015/11/zenefits-interview-count-of-possible_28.html
+
+Question: 找出一个string里面长度为n （n小于等于string的长度）的所有组合。
+
+============================
+Zenefits OA + 1 phone + 4 Skype onsite
+http://www.1point3acres.com/bbs/thread-133737-1-1.html
+
+后来online test完了呢就约了电面，电面的题目是那道number of island，leetcode上面有，但我当时面的时候leetcode这道题似乎还没有加进去呢，这题我建议用python做，因为在maintain visited这个HashSet的时候python可以直接往里面扔tuple，也就是坐标例如（1， 1），（2， 3）,Java的话我觉得只能往里面扔转化后的index，例如length为5的matrix，（1， 1） -> 1 * 5 + 1 = 6，把6扔到HashSet中。这样可能不太方便尤其在做DFS或者BFS的时候。做完题后聊了聊，他说最近公司扩张太快，但节奏有点跟不上，manager和下面的人交流有障碍，不是software engineer推动产品而是PM在推动产品，这种模式让他非常confusing。. 
+http://likemyblogger.blogspot.com/2015/04/leetcode-200-number-of-islands.html
+http://likemyblogger.blogspot.com/2015/04/leetcode-200-number-of-islands.html
+
+1st Round Skype Coding Exercise. more info on 1point3acres.com
+接着约了第一轮Skype coding exercise, 题目大概是这样的：有一个String输入，其实是一个sentence, 例如“I want to buy a cup of water” 输出为 “I wnat to buy a cup of wtear” 意思是对于句子中的每个单词，例如water, 最边上两个char不能变，内部的char要随机排列重组，也就是说需要写一个random word combination的函数，public String helper(String s), 输出随机排列出来的word。由于楼主对于Java Random模块不太熟悉，写出了O(n ^2)的解法，但他的要求是O(n)，各位可以想一想怎么随机排列内部这些char以达到O(n)的解法。后来我一想这不行啊，题没做出来要挂啊，马上反转上去和他交流，问他们组的状况，他工作如何，有什么challenging，我和他说我有前端开发经验，比如Django和JS，问了半天他眼前终于亮了，他说我们公司就用Django, python和JS，你有过开发前端server的project吗？给我讲一个，我就详细地讲了一个当时Django做的project，还讲了MVC和一些tricky things，他很满意，但他说注意为后期的模块分离做准备，比如现在zenefits已经把前端拆分的很细了，也就是view的那块完全细化了，我连忙附和点赞。后来第二天HR告诉过了，说要进行第二轮。
+
+
+2nd Round Skype Coding Exercise
+第二轮coding exercise的面试官是一位CMU的校友，他和我聊了很多之前上过的CS课，比如说15440（distributed system），还有15213， 15112，后来他问我15451上过没有，我说没有，上的是15650，是给非CS同学们开的算法课，主要讲图论的。他说好，那我考你个15451里面相关的题吧。题目如下：. 鍥磋鎴戜滑@1point 3 acres
+Given an array of Integers, there is exactly one Integer that occurs more than or equals to 1/3 of the size of the array. For example, [1, 2, 3, 1, 5, 7, 7, 1, 5] will return 1. Find that Integer. The average time complexity should be O(n) and the space complexity should be O(1).
+刚看完这道题，我想这题我不是做过吗，就是在lintcode上边，先存一个HashMap, key只有三个，然后traverse这个array,不断的抵消，最后剩下的再比较一下就可以了。lintcode链接如下：http://www.lintcode.com/en/problem/majority-number-iii/
+我讲出了我的思路。他笑着对我说，你试一下题目中这个例子，好像你的思路好像不太对啊。我仔细一读题，发现，哦原来数目可以等于1/3的size，这有点不太好做了。后来整个面试过程就变成了他教我一步步地做题，他说，如果这题是1/2不是1/3,你会做吗？我想了想，说不太会啊。。。他又问，如果是1/2并且整个array已经被sort过了，你会做吗？我说会啊，扫一遍就可以了，他说No,不需要扫一遍，O（1）时间就可以找到答案，我想了一会儿，突然顿悟道，看关键点就可以了！比如说1/2，就查看sorted后array的median number，如果长度为奇数，则只能是median number作为答案，如果长度是偶数，就再查头尾就可以了。他笑道，那1/3的时候怎么处理呢？我回答：可以查关键点的三个Integer（如果size是9的话，查sorted 后 index为 0，为 3 和为 6的就可以了），只有这三个数有可能成为最后的结果，然后对这三个数建立HashMap，扫一遍找最大的那个就可以了，所以是O（1）的space complexity。他说，对，但如何写一个函数直接能找到sorted后array中第index个Integer？我想了想，表示不会，他问：你知道quick sort吗？于是就有了下面的函数：
+
+def quickselect(array, k):
+    if (len(array) == 0 or len(array) == 1):
+        return array
+    left = []
+    equals = []
+    right = []
+    for i in range(1, len(array)):
+        if array < array[0]:. 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+            left.append(array)
+        elif array > array[0]:
+            right.append(array)
+        else:
+            equals.append(array)
+    if (len(left) >= k + 1):
+        return quickselect(left, k)
+    elif (len(left) + len(equals) + 1 >= k + 1): 鏉ユ簮涓€浜?.涓夊垎鍦拌鍧?. 
+        return array[0]
+    else:. 鍥磋鎴戜滑@1point 3 acres
+        return quickselect(right, k - len(left) - len(equals) - 1)
+
+利用quick sort解决了整个问题，并且平均运行时间为O（n）。这题做完了我直接给跪了，时间已经过了一个半小时，他说，这题确实比较难想，一般人做不出来，我表示赞同。他后来又说，你quick sort什么的写的还不错，不过15451这课还是建议上一下。。。这轮面完后，我想着是铁定跪了，但过了一天HR竟然来联系我了，告诉我前面的两轮有着great positive feedback，我直接尿了，这运气太好了吧，再次真的感谢一下这个CMU校友，真是太感谢了放小弟一马。HR后来联系进行final round，要一轮1 h的coding exercise, 加两个30 min的behavior interview. 我说好。
+
+3rd Round Skype Coding Exercise
+这轮楼主运气又比较好，遇到了地里面面经中得一道题，说真的，这题要是没见过2个小时我也做不出来，另外面试官又是CMU的，又聊了很长时间之前的选课，他表示15640选了Kristen的，十分痛苦，题目如下：
+http://www.1point3acres.com/bbs/ ... read&tid=131422
+感谢applepie11的无私分享！谢谢你！由于楼主之前写了一遍完整的，我写完后大概时间过了50min了，我想着这要是出bug没时间抵了，出人意料的是，run后所有的30个test case一遍通过，面试官都惊了，他说这道题非常难，几乎没人能做出来，我背后一身冷汗。。。. 1point3acres.com/bbs
+
+
+
+1st Round Skype Behavior Interview
+面了组里面一个工程师，就是谈笑风生，一共聊了20分钟就挂了。
+
+2nd Round Skype Behavior Interview.1point3acres缃?
+后来才得知是director of engineer，开始我们谈笑风生，后来快15分钟的时候，他突然和我说：“I really like you, I want to give you the offer now, please check your email.”，竟然直接就给了，他说你来到Zenefits后，干什么都可以，可以干两个月Mission Control, 再干三个月Distributed System Architecture, 然后再跳到其他的part，直到你找到自己真正喜欢的方向。这点让我十分感动。
+
+他家给的package真是相当的高，之前有人说过我就不再提了，但考虑时间只有两天，我和HR沟通过后觉得把relocation fee要到手后就签了，谢谢大家的面经和无私奉献，期待和地里的朋友多多交流吧！
+来自群组: CMU
+
+=========================
+http://www.themianjing.com/2016/01/%E3%80%90%E8%BF%98%E6%84%BF%E3%80%91zenefits%E5%85%A8%E5%A5%97%E9%9D%A2%E7%BB%8F-onsite-skype-phone-16-112/
+Phone：
+也是老题，很长，边看边想肯定写的时间来不及的。
+我之前自己写了一遍，之后还是花了30分钟才码完，毕竟不太能把自己的代码背下来。
+题目：
+http://www.1point3acres.com/bbs/thread-131422-1-1.html
+
+========================
+http://www.themianjing.com/2015/06/zenefit-%E7%94%B5%E9%9D%A2%E9%9D%A2%E7%BB%8F%E6%95%B4%E5%90%88/
+之前面试zenefit整理地理的面经，希望对要面的同学有帮助，虽然这家跪了，求人品
+stack
+expression evalution
+. Waral 鍗氬鏈夋洿澶氭枃绔 有点像 reverse polish notation 的变种，计算一个表达式的值的。要求自行设计表达式的数据结构并计算表达式的值。
+
+有几种特殊情况
+1. 单输入一个数，比如 [0]，是合法，结果为0；-google 1point3acres
+2. 单输入一个运算符也是合法的。 无数字运算的 ‘+’， ‘-‘， ‘/’ 结果为 0, 单个 ‘*’ 的结果为 1.
+3. 一个运算符可以有好几个计算数字。 比如输入为 [‘+’, 1, 2, 3]，结果为1 + 2 + 3 = 6
+4. 表达式可嵌套,[‘+’, 1, 2, [‘*’, 1, 3]]，这样结果为 1 + 2 + 1 * 2 = 5.
+输入一定合法，不用考虑给了两个连续数字却没有运算符的情况，也不用考虑除数为0的情况。
+我的做法为新建一个 Expression 类，用于解决输入包含运算符，数字，或者expression三种情况，这样输入就可以为一个Expresssion 的List，再用一个Queue来决定问题。不知道有没有大神有更好的做法。
+use two stack to store the operation, nums. if cur operation is small or equal to previous one, the
+3 sum smaller
+input 為兩個輸入
+1. integer
+2. list
+計算 list中滿足 三個值的和 小於或等於 integer 的數目
+
+e.q.
+integer = 8
+list = [1, 2, 3, 4, 6]
+ifonly need the count of result, then build segment tree to store who many uniq nums in each segment. the time complexity is n^2 log N
+if need to return all combination, the time complexity is n^3.
+public static ArrayList<ArrayList<Integer>> threeSumEqualOrLess(int[] data, int target) {
+ArrayList<ArrayList<Integer>> output = new ArrayList<>();
+if(data == null || data.length == 0) {
+return output;
+}
+Arrays.sort(data);
+for(int i = 0; i < data.length – 2; i++) {
+if(i == 0 || data != data[i – 1]) {
+int sum = target – data;
+int start = i + 1;
+int end = data.length – 1;
+while(start < end) {
+if(data[start] + data[end] <= sum) {
+//need to dedup with merge backWords
+ArrayList<ArrayList<Integer>> temp = mergeAllEndBackwardsResult(data, i, start, end);
+output.addAll(temp);.1point3acres缃
+
+start++;
+while (start < end data[start] == data[start – 1])
+start++;
+} else {
+end–;
+}
+}
+}
+}.1point3acres缃
+return output;
+}
+
+public static ArrayList<ArrayList<Integer>> mergeAllEndBackwardsResult(int[] data, int i, int j, int k) {
+ArrayList<ArrayList<Integer>> output = new ArrayList<>();
+while(j < k) {
+ArrayList<Integer> temp = new ArrayList<Integer>();
+temp.add(data);
+temp.add(data[j]);
+temp.add(data[k]);
+output.add(temp);
+System.out.println("mergeToAResult" + Arrays.toString(temp.toArray()));
+
+k–;
+//avoid duplicate solutions
+while (j < k data[k] == data[k + 1])
+k–;
+
+}
+return output;
+}
+
+super stack
+操作有push, pop。 还有一个是inc a b。实现stack的bottom a个数都加b
+use dequeue, push pop in one side and inc(a,b) in another side
+
+实现一个数据结构包含三个功能，push， pop， getmin，time complexity均要为O(1)， 不可以调用API，自己实现了double linkedlist，而且要求只用一个list
+push the element in one side and the minimum element in another side.
+
+HashMap
+LRU Cache
+Queue
+题目巨长输入格式是. 1point3acres.com/bbs
+1
+2.
+就是说 第1行第1个是queen 第2行第2个是queen，并保证输入的数字不重复，这样可以得出一个结论：同一行 同一列不会出现2个queen。
+题目要求是求出 对于每个Queen， 最大的威胁次数，威胁指只要一个queen所能移动的范围内有别的queen就算威胁 P.S.同一方向上有2个queen威胁你 只算最近的那个。
+由于同一行 同一列不会出现2个queen。（由于输入限制）所以只要考虑对角线 和逆对角线。
+举个例子： 棋盘是：
+100 —- 1号 queen
+010 —- 2号 queen
+001 —- 3号 queen
+  
+============================
+http://www.themianjing.com/2016/01/zenefits-onsite%E8%B7%AA%E7%BB%8F/
+四轮，感觉都是technical面，并没有behavior。。。代码可以在自己电脑上写，也可以写白板。
+第一轮：像三哥但是没有口音，题目：现在有一个scenario，有很多人在玩一个游戏，每次游戏都会有一个winner，然后会有一个dashboard显示当前的所有winner的排行榜，分别按照赢的次数递减和姓名字母排序。感觉有很多细节，我一直在问，三哥很耐心。
+第二轮：国人小哥，上来不废话直接上题，给一个二维矩阵，里面有三个机器人，有一些点是障碍，其他点是通路，找一个点离这三个机器人距离和最近。一看到国人小哥我就紧张，用bfs写着写着就有点想糊涂了，被小哥无情鄙视。。。最后几分钟问了下在zenefits的工作，小哥说他一天工作14小时，然后公司每月都会开人。。。
+第三轮：白人小哥，从温哥华office调来的，面的时候还搬了台电脑，跟另外一个亚洲脸小哥一边开着Skype。。。题目是给一个矩阵，里面元素相同又相邻的点可以连成相应的island，然后island之间又有连通或者不连通的关系，让设计一个data structure，把矩阵转化成island的图。这轮血崩，一直没想好怎么判断两个island是不是连通的，小哥基本全程冷漠脸，不给任何提示。。。最后问了下他的team，我说上一个面试官跟我说一天工作14小时，小哥说14小时太多了吧，一周50-60小时是肯定有的。。。
+第四轮：三哥，以为终于可以不做题要behavior面了，然而寒暄了两句又开始做题。。。让设计一个big integer的class，我说一位一位存，他说space complexity太大，我说用bitmap,他说省空间了但是performance不好。然后让我想一个折中的方法，然后并想不出来。。。三哥后来说了个方法我也没太听懂。
+面下来对zenefits印象还不错，hr很nice，面试官也没有特意刁难或者特别奇葩的，office气氛看着也不沉闷，里面还在扩建，应该会一直招人吧。
+讲真，如果好好准备的话题做出来应该没有太大问题，不过也许拿offer也不仅仅光看做题。。。
+
+===================================
+http://www.themianjing.com/2015/07/zenefits-oa%E7%94%B5%E9%9D%A2skype-onsite/
+OA zen test3 都是老题
+1.longest chain
+2. N queens threat
+
+这两题我事先自己写过，每道题10个test都跑过了。
+第一题用Hashmap存长度，和长度对应的String set。从最长的string开始，对每个单词做 bfs，扫过的从字典删除就可以了。
+第二题算是数学题，可以用两个map，一个存和，一个存差。然后对每个坐标的queen，检查4个象限的threat就可以了，最大是4。
+
+phone interveiw:
+Leetcode原题 trap rain water
+
+skype onsite
+第一轮
+就一道题 String A, String B。求A的substring是B的anagram的数量。
+这题很简单，不过我答的不好，还是没经验，题目做得也不够多。一开始把题意理解错了，以为是找substring和B具有相同的pattern，花了十分钟才搞清楚是anagram。然后给了两个算法，面试官都不满意。给到第三个，时间是没问题了，但是空间还是有问题。最后自己想到了用hashmap存char，和char出现的frequency，然后移动window判断。虽然自己想到了，但是时间耗太久了。
+
+第二轮
+1. 2D matrix iterator
+2. Build BST from Sorted LinkedList，时间要求O(n)
+
+第三轮 behavior
+
+无悬念fail
+
+======================================
+http://www.themianjing.com/2015/12/zenefits%E9%9D%A2%E7%BB%8F%EF%BC%88%E5%B7%B2%E6%8C%82%EF%BC%89/
+0。题不难，都做出并跑出了。
+1。全是从印度本土来的老印，除了recruiter
+2。有点不专业，最后的面试是通过skype／hangout进行。面试官造成其中两轮时间缩
+短。
+3。面试时间11:00-6:00之间，不为申请人着想
+4。没有onsite，是省钱吗？但据说工资开得高
+
+网上测试题忘了，但记得是challenge III，在hackerrank上。3小时，实际不用那么多。
+
+电面
+Given a list of pairs in form of (employee, manager), find out all reports
+of any given employee and print them out.
+Example:
+(A,B)
+(C,B)
+(D,A)
+(B,E)
+Given B, you should print out
+B
+-A
+
+========================================
+http://www.themianjing.com/2015/12/zenefits-oa2%E7%94%B5%E9%9D%A2/
+电面：三哥，态度蛮好，一个小时两道题：1.previous permutation 2. input : long t, int[] d, find triplets that d[i]<=d[j]<=d[k] and d[i]+d[j]+d[k]<=t 都没准备反正妥挂。。。其实好好准备的同学应该没有问题
+
+========================================
+http://www.themianjing.com/2015/12/zenzefits%E5%B7%B2%E6%8C%82%E9%9D%A2%E7%BB%8F%E5%88%86%E4%BA%AB%EF%BC%8C%E6%B1%82%E7%89%88%E5%86%85%E7%9A%84%E5%AD%A6%E9%95%BF%E5%AD%A6%E5%A7%90%E4%BB%AC%E6%8B%89%E4%B8%80%E6%8A%8A%E5%86%85%E6%8E%A8/
+小弟明年春季毕业ce硕士一枚，leetcode两遍，但是目前为止死活都拿不到面试，这次
+zenefits还是多亏了版内的Jerry大神内推才拿到的唯一的面试，非常感谢。希望现在
+还招new grad的大哥大姐们拉一把，下面面经：
+
+1.leetcode原题变种，查看一个binary tree是不是对称的（mirror），秒
+
+2.给你很多很多个hosts，由一个元素和它的权重组成，权重可能很大。让你提供一个
+function，每次取一个host，总体的分布是按照权重的。例如：（A,1),(B,2),(C,3),
+总共取六次，应该取A一次，B两次，C三次。这道题答得印度哥不是很满意
+
+=======================================
+http://www.themianjing.com/2015/12/%E9%AA%91%E9%A9%B4%E6%89%BE%E9%A9%AC%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%BB%93%E6%9D%9F%E5%8F%91%E9%9D%A2%E7%BB%8F%E5%9B%9E%E9%A6%88%E6%9C%AC%E7%89%88/
+(1) 一轮两个题，第一题是DFS 具体题目忘了，另外一道是打印公司所有雇员名单
+，要求自己选data structure，input 文件是每一个公司职员的名称，如果是manager,
+还会有这个manage管理人的名单。要求输出是给一个人名，输出这个下面的所有report
+chain，每一级要缩进。 这一轮面的不错，第二题把意思一讲面试官说ok，就写了几
+个主要function，感觉他还挺满意
+(2) 给一个array， 找出最高点或最低点，例子如下
+【1,2,3,2,1】 => 3
+【3,2,1,2,3】=> 1
+[1,2,3,4,5] =>-1
+第二题是simple calculator (leetcode)
+(3) 设计一个cache，要求实现如下功能:
+1. Add
+2. Search
+3. Delete
+4. Delete all
+要求每个function的时间都是O(1)，catch是这个cache只会存储 1 – 500M的数字；挺
+有意思的一道题，当时想出来了，面试官看起来还挺满意
+(4) Manager behavior questions
+
+======================================
+http://www.themianjing.com/2015/11/%E4%B8%80%E9%81%93zenefits%E9%9D%A2%E8%AF%95%E9%A2%98/
+A, B两个String
+//example
+A = XYZ;
+A^2 = XXYYZZ;
+A^3 = XXXYYYZZZ;
+
+B = XXadhflakjhelXXzzqqkkpoYYadadfhgakheZafhajkefhlZadhflkejhZfagjhfebhh
+
+A^2 是B的subsequence, 所以
+return k = 2;
+
+A可能有重复的char, B可能有其他字符, 求k.
+
+====================================
+http://www.themianjing.com/2015/12/zenefit-%E7%94%B5%E9%9D%A2%E9%9D%A2%E7%BB%8F/
+zenefit 电面，
+面试官印度哥， 先问背景，
+然后出了一道题， 在bst中找是否有两个nodes 之和 等于k,
+返回值是 boolean value, 详解见以下链接
+http://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
+
+由于没有给出最优解，挂了。
+
+====================================
+http://www.themianjing.com/2015/08/zenefits-%E7%94%B5%E9%9D%A2-2/
+第一轮 online test1， 1.实现一个supper stackpop(),push(), peek(),inc(a,b);
+
+inc(a,b) 表示从botto个数每个数加b
+我的做法是写个node类实现doublelinked list，注意输入有范围要求，要用long，还有就是java有两个test case通不过是因为input output的效率问题，用in stream读取就可以了，不通过也不影响进下一轮
+
+2.判断一串数是不是preorder 的tree，leetcode新题
+
+昨天电面，是个叫Asati的口音惊奇的 阿三，说话牙缝漏风一样。。。。听着难受
+
+就一题，在数组里所有相差为k的pair个数，public int findPair(long[] nums,long k)，类似LC上2sum的题，很容易，就是他家用的coding board input要自己读，捣鼓了一会儿format问题。
+做完以后 三表示了下满意，说没准备别的问题，让我提问，让他介绍下zenefit的业务和project，完全听不懂他说的哪国话。。。就随便说几句别的就挂了
+
+本以为要进下一轮，结果今天收到拒信，说他们研究下我的背景感觉不match，莫名其妙。。。。
+这家公司给人感觉神经兮兮的，有人收到过他家的offer么？
+
+
+=====================================
+http://www.bbsdigest.com/thread/index?bid=154&tid=31488477
+上周skype onsite，然后面完感觉他们都还挺高兴，最后一轮的interviewer告诉我会很快得到答复。但是大概过了一周还没有得到答复，于是今天发了个邮件询问了下，recruiter告诉我其实早知道要给offer了，但是她给miss了，然后感谢我发邮件问。刚刚跟recruiter谈，然后等周五具体跟CTO谈offer package，现在还不知道offer的具
+
+体数目，如果有拿到的希望能够share一下。还有就是本人年底才毕业（PhD），本打算秋季才找工作，所以基本上只面了zenefits。Google, Facebook等都没有面。所以现在就只有zenefits的offer，现在纠结要不要接offer，他们家两天内要求给答复，所以基本上没有可能再拿其他家offer的可能性了。希望大家给些建议，不知道它家值不值得直接accept了，多谢！
+
+下面是我的电面和onsite的面经：
+
+OA的两题在做的时候发现跟大家碰到的不一样，不过等了两天就有人update了，所以感觉他家OA经常换题。
+
+电面两题：
+
+1. Median of two sorted array; 2. Excel Sheet Column Title.
+
+三轮onsite，两轮code:
+
+每一轮一题，但都挺难：
+
+（1）Generate Tree S-expression，网址 http://www.1point3acres.com/bbs/thread-131422-1-1.html
+
+（2）一个undirected network without cycle，要求求得节点具有到其他节点的最小
+
+distance，也就是node with min(sum_of_distance_to_other_nodes)。这道题弄了一
+
+些时间，开始直接说对每个点BFS。然后慢慢的讨论优化，因为图无环，最后弄出来的算法是O(n)的。但是代码只写出来了一半，不过之前跟他讨论得很详细了，也先给出了伪代码，所以感觉他也满意了。

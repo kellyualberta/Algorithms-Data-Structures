@@ -1,0 +1,87 @@
+// This is the text editor interface. 
+// Anything you type or change here will be seen by the other person in real time.
+
+// problem: robot merge point
+// input:
+// robot: 1
+// obstacle: X
+[
+    0   0   0   M   1
+    0   1   X   0   0
+    0   X   0   0   0
+    0   0   0   1   0 
+    0   0   0   0   0
+    ]
+// output:
+// best merge point: M
+3 + 1 + 3 = 7
+    
+Definition: Best merge point: minimal sum of path num between robots and merge point
+// Assume: K robots, M*N map
+// time complexity: (M*N)^2
+// space complexity:
+class Point{
+    int x;
+    int y;
+}
+vector<vector<int>> dir = {{-1, 0},{1,0},{0,-1},{0,1}};
+Point bestMergePoint(vector<vector<char>> mat, vector<Point> robots){
+//    vector<Point> robots_pos;
+    int K = robots.size();
+    int M = mat.size();
+    int N = mat[0].size();
+    vector<vector<int>> distances(M, vector<int>(N, 0));
+    
+    for(int k=0; k<K; ++k){
+        vector<vector<bool>> visited(M, vector<bool>(N, false));
+        stack<Point> stk;
+        stk.push(robots[k]);
+        while(!stk.empty()){
+            Point t = stk.top();
+            stk.pop();
+            int x = t.x;
+            int y = t.y;
+            for(int i=0; i<4; ++i){
+                int x1=x+dir[i][0];
+                int y1=y+dir[i][1];
+                if(x1>=0 && x1<M && y1>=0 && y1<N && mat[x1][y1]!='X' && !visited[x1][y1]){
+                    visited[x1][y1] = true;
+                    distances[x1][y1] ++;
+                }
+            }
+            
+        }
+        
+//        dfs(robots[k].x, robots[k].y, mat, distances, visited);
+    }
+    
+    int ret = INT_MAX;
+    //int sum = 0;
+    
+    for(int i=0; i<M; ++i){
+        for(int j=0; j<N; ++j){
+            ret = min(ret, distances[i][j]);
+        }
+    }
+    return ret;
+}
+/*
+void dfs(int i, int j, vector<vector<char>>& mat, vector<vector<int>>& distances, vector<vector<bool>> visited){
+    visited[i][j] = true;
+    if(i-1>=0 && mat[i-1][j]!='X' && !visited[i-1][j]){
+        distances[i-1][j]++;
+        dfs(i-1, j, mat, distances, visited);
+    }
+    if(i+1<M && mat[i+1][j]!='X' && !visited[i+1][j]){
+        distances[i+1][j]++;
+        dfs(i+1, j, mat, distances, visited);
+    }
+    if(j-1>=0 && mat[i][j-1]!='X' && !visited[i][j-1]){
+        distances[i][j-1]++;
+        dfs(i, j-1, mat, distances, visited);
+    }
+    if(j+n<N && mat[i][j+1]!='X' && !visited[i][j+1]){
+        distances[i][j+1]++;
+        dfs(i, j+1, mat, distances, visited);
+    }    
+}*/
